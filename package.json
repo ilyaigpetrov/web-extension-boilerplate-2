@@ -4,7 +4,8 @@
   "description": "Created to refresh my skills.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/ilyaigpetrov/web-extension-boilerplate-2/issues"
   },
-  "homepage": "https://github.com/ilyaigpetrov/web-extension-boilerplate-2#readme"
+  "homepage": "https://github.com/ilyaigpetrov/web-extension-boilerplate-2#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
 }
