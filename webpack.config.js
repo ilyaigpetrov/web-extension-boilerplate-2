@@ -10,7 +10,7 @@ module.exports = {
   },
   output: {
     path: Path.join(__dirname, 'dist'),
-    filename: '[name]/bundle.js'
+    filename: '[name]/bundle.js',
   },
   module: {
     rules: [
@@ -18,10 +18,10 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader"
-        }
-      }
-    ]
+          loader: 'babel-loader',
+        },
+      },
+    ],
   },
   plugins: [
     new CopyWebpackPlugin([

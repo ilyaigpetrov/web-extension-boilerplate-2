@@ -1,2 +1,9 @@
+import Weer from 'weer';
 
-console.log('TEST');
+window.Weer = Weer;
+
+Weer.install({
+  sendReportsToEmail: 'ilyaigpetrov@gmail.com',
+});
+
+throw new Error('BGERR');
