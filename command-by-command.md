@@ -25,7 +25,7 @@
 2. `vim .babelrc`:
 ```json
 {
-  "presets": ["@babel/preset-react"]
+  "presets": ["@babel/preset-react"],
 }
 ```
 3. `vim webpack.config.js`

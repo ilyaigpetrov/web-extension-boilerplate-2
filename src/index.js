@@ -3,7 +3,8 @@ import Weer from 'weer';
 window.Weer = Weer;
 
 Weer.install({
-  sendReportsToEmail: 'ilyaigpetrov@gmail.com',
+  sendReports: {
+    toEmail: 'ilyaigpetrov+weer-test@gmail.com',
+    inLanguages: ['en'],
+  },
 });
-
-throw new Error('BGERR');
